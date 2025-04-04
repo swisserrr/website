@@ -1,0 +1,80 @@
+.card {
+  perspective: 150rem;
+  position: relative;
+   height: 27rem;
+  width: 100%;
+  box-shadow: none;
+  background: none;
+}
+
+.card-side {
+  height: 27rem;
+  border-radius: 15px;
+  transition: all 0.8s ease;
+  backface-visibility: hidden;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  width: 100%;
+  color: white;
+}
+
+.card-side.back {
+  transform: rotateY(-180deg);
+  background-color: #000;
+}
+
+.card-side.front {
+  background-color: #d9d9d9;
+  @media (max-width: 600px) {
+    height: 22rem;
+  }
+}
+
+.card:hover .card-side.front {
+  transform: rotateY(180deg);
+}
+
+.card:hover .card-side.back {
+  transform: rotateY(0deg);
+}
+
+/* Rotate */
+@keyframes mymove1 {
+  0% {
+    transform: rotateY(0deg);
+  }
+  50% {
+    transform: rotateY(180deg);
+  }
+  100% {
+    transform: rotateY(0deg);
+  }
+}
+@keyframes mymove2 {
+  0% {
+    transform: rotateY(-180deg);
+  }
+  50% {
+    transform: rotateY(0deg);
+  }
+  100% {
+    transform: rotateY(-180deg);
+  }
+}
+.card .card-side.front.rotate {
+  animation: mymove1 2s;
+}
+.card .card-side.back.rotate-b {
+  animation: mymove2 2s;
+}
+
+@media (max-width: 600px) {
+  .card {
+    height: 22rem;
+  }
+  .card-side {
+    height: 22rem;
+  }
+}

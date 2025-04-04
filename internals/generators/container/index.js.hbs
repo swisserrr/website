@@ -1,0 +1,68 @@
+/**
+ *
+ * {{properCase name }}
+ *
+ */
+
+{{#if memo}}
+import React, { memo } from 'react';
+{{else}}
+import React from 'react';
+{{/if}}
+import PropTypes from 'prop-types';
+import { compose } from 'redux';
+import { connect } from 'react-redux';
+
+{{#if wantActionsAndReducer}}
+import { createStructuredSelector } from 'reselect';
+{{/if}}
+
+{{#if wantMessages}}
+import { useTranslation } from 'react-i18next';
+{{/if}}
+
+// import {} from './styles';
+import makeSelect{{properCase name}} from './selectors';
+
+export function {{ properCase name }}() {
+  {{#if wantMessages}}
+  const { t } = useTranslation();
+  {{/if}}
+
+  return (
+   <div>
+    {{#if wantMessages}}
+      <h3>{t('{{ camelCase name }}.title')}</h3>
+    {{/if}}
+   </div>
+  );
+}
+
+{{ properCase name }}.propTypes = {
+  dispatch: PropTypes.func.isRequired,
+};
+
+{{#if wantActionsAndReducer}}
+const mapStateToProps = createStructuredSelector({
+  {{ camelCase name }}: makeSelect{{properCase name}}(),
+});
+{{/if}}
+
+function mapDispatchToProps(dispatch) {
+  return {
+    dispatch,
+  };
+}
+
+{{#if wantActionsAndReducer}}
+const withConnect = connect(mapStateToProps, mapDispatchToProps);
+{{else}}
+const withConnect = connect(null, mapDispatchToProps);
+{{/if}}
+
+export default compose(
+  withConnect,
+{{#if memo}}
+  memo,
+{{/if}}
+)({{ properCase name }});

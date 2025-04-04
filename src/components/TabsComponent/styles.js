@@ -1,0 +1,1 @@
+/* Styles for TabsComponent container module */

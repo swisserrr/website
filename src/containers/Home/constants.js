@@ -1,0 +1,17 @@
+/*
+ *
+ * Test constants
+ *
+ */
+
+export const DEFAULT_ACTION = 'app/Home/DEFAULT_ACTION';
+
+export const SUCCESS_FETCHING_POSTS = 'app/Home/SUCCESS_FETCHING_POSTS';
+export const FAIL_FETCHING_POSTS = 'app/Home/FAIL_FETCHING_POSTS';
+
+export const START_FETCHING_POSTS = 'app/Home/START_FETCHING_POSTS';
+export const SAVE_CONTACT = 'app/Home/SAVE_CONTACT';
+export const SAVE_CONTACT_SUCCESS = 'app/Home/SAVE_CONTACT_SUCCESS';
+export const SAVE_CONTACT_FAIL = 'app/Home/SAVE_CONTACT_FAIL';
+export const FETCHING_HOME_SCREEN_DATA = 'app/Home/FETCHING_HOME_SCREEN_DATA';
+export const FETCHING_HOME_SCREEN_DATA_SUCCESS = 'app/Home/FETCHING_HOME_SCREEN_DATA_SUCCESS';

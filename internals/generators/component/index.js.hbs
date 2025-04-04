@@ -1,0 +1,40 @@
+/**
+ *
+ * {{ properCase name }}
+ *
+ */
+
+{{#if memo}}
+import React, { memo } from 'react';
+{{else}}
+import React from 'react';
+{{/if}}
+
+// import PropTypes from 'prop-types';
+// import {} from './styles';
+
+{{#if wantMessages}}
+import { useTranslation } from 'react-i18next';
+{{/if}}
+
+function {{ properCase name }}() {
+  {{#if wantMessages}}
+  const { t } = useTranslation();
+  {{/if}}
+
+  return (
+    <div>
+    {{#if wantMessages}}
+      <h3>{t('{{ camelCase name }}.title')}</h3>
+    {{/if}}
+    </div>
+  );
+}
+
+{{ properCase name }}.propTypes = {};
+
+{{#if memo}}
+export default memo({{ properCase name }});
+{{else}}
+export default {{ properCase name }};
+{{/if}}

@@ -1,0 +1,393 @@
+/* Styles for edit profile input */
+
+.intl-tel-input-contact .otp_style_edit {
+  background-color: #d9d9d9 !important;
+  border-radius: 25px !important;
+  height: 40px;
+  width: 78%;
+  color: #1a1a1a;
+  font-size: 1.5rem;
+  border: none;
+  -webkit-border-radius: 25px !important;
+  -moz-border-radius: 25px !important;
+  -ms-border-radius: 25px !important;
+  -o-border-radius: 25px !important;
+  @media (max-width: 600px) {
+    font-size: 1.3rem;
+  }
+}
+
+.otp_style_edit::placeholder {
+  color: #d9d9d9;
+}
+
+.intl-tel-input-login .otp_style_edit {
+  background-color: #d9d9d9;
+  border-radius: 25px !important;
+  height: 4.4rem;
+  width: 90% !important;
+  color: #1a1a1a;
+  font-size: 1.5rem;
+  border: none;
+  -webkit-border-radius: 25px !important;
+  -moz-border-radius: 25px !important;
+  -ms-border-radius: 25px !important;
+  -o-border-radius: 25px !important;
+  @media (max-width: 600px) {
+    font-size: 1.3rem;
+  }
+}
+
+.intl-tel-input-login .flag-container .otp_style_edit::placeholder {
+  color: #d9d9d9;
+}
+
+.edit-input.allow-dropdown.separate-dial-code.iti-sdc-3 .selected-flag {
+  width: 9% !important;
+}
+
+.edit-input-disabled.allow-dropdown.separate-dial-code.iti-sdc-3 .selected-flag {
+  width: 12% !important;
+}
+
+@media (max-width: 1024px) and (max-width: 900px) {
+  .intl-tel-input-login .otp_style_edit {
+    width: 80% !important;
+  }
+  .edit-input.allow-dropdown.separate-dial-code.iti-sdc-3 .selected-flag {
+    width: 19% !important;
+  }
+  .edit-input-disabled.allow-dropdown.separate-dial-code.iti-sdc-3 .selected-flag {
+    width: 19% !important;
+  }
+}
+
+@media (max-width: 900px) {
+  .intl-tel-input.allow-dropdown.separate-dial-code.iti-sdc-3 .selected-flag {
+    height: 40px;
+  }
+  .intl-tel-input-login .otp_style_edit {
+    width: 80% !important;
+  }
+  .edit-input.allow-dropdown.separate-dial-code.iti-sdc-3 .selected-flag {
+    width: 19% !important;
+  }
+  .edit-input-disabled.allow-dropdown.separate-dial-code.iti-sdc-3 .selected-flag {
+    width: 19% !important;
+  }
+
+  .intl-tel-input.selected-flag.separate-dial-code {
+    padding-left: 0px !important;
+  }
+  .intl-tel-input .selected-flag {
+    height: 4.4rem !important;
+  }
+  .intl-tel-input-contact .otp_style_edit {
+    width: 75% !important;
+    height: 4.4rem !important;
+  }
+}
+@media (max-width: 1024px) {
+  .intl-tel-input-login .otp_style_edit {
+    width: 78% !important;
+  }
+  .edit-input.allow-dropdown.separate-dial-code.iti-sdc-3 .selected-flag {
+    width: 20% !important;
+  }
+  .edit-input-disabled.allow-dropdown.separate-dial-code.iti-sdc-3 .selected-flag {
+    width: 20% !important;
+  }
+  .intl-tel-input-edit.allow-dropdown.separate-dial-code.iti-sdc-3 .selected-flag {
+    width: 78px;
+    height: 4.4rem;
+    background-color: #d9d9d9 !important;
+  }
+  .intl-tel-input-contact .otp_style_edit {
+    height: 4.4rem !important;
+  }
+}
+
+@media (max-width: 599px) {
+  .intl-tel-input-contact .otp_style_edit {
+    width: 70% !important;
+  }
+  .edit-input.allow-dropdown.separate-dial-code.iti-sdc-3 .selected-flag {
+    width: 27% !important;
+  }
+  .edit-input-disabled.allow-dropdown.separate-dial-code.iti-sdc-3 .selected-flag {
+    width: 27% !important;
+  }
+  /* .intl-tel-input .otp_style_home {
+    width: 72% !important;
+  } */
+  .intl-tel-input-login .otp_style_edit {
+    width: 72% !important;
+  }
+  .edit-input-disabled .flag-container .selected-flag .selected-dial-code {
+    font-family: 'Inter' !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    font-size: 13px !important;
+    line-height: 25px !important;
+    display: flex !important;
+    align-items: center !important;
+    text-align: center !important;
+    color: #12181f !important;
+  }
+  .edit-input .flag-container .selected-flag .selected-dial-code {
+    font-family: 'Inter' !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    font-size: 13px !important;
+    line-height: 25px !important;
+    display: flex !important;
+    align-items: center !important;
+    text-align: center !important;
+    color: #12181f !important;
+  }
+}
+
+@media (max-width: 400px) {
+  .intl-tel-input-contact .otp_style_edit {
+    width: 65% !important;
+  }
+  .edit-input.allow-dropdown.separate-dial-code.iti-sdc-3 .selected-flag {
+    width: 33% !important;
+  }
+  .edit-input-disabled.allow-dropdown.separate-dial-code.iti-sdc-3 .selected-flag {
+    width: 33% !important;
+  }
+  .intl-tel-input-login .otp_style_edit {
+    width: 65% !important;
+  }
+}
+
+.otp_style_edit:focus-visible {
+  outline: -webkit-focus-ring-color auto 0px !important;
+}
+
+.edit-input.allow-dropdown.separate-dial-code .selected-flag {
+  background-color: #ffffff !important;
+}
+
+.edit-input-disabled.allow-dropdown.separate-dial-code .selected-flag {
+  background-color: #d9d9d9 !important;
+}
+
+/* End */
+
+/* Styles for edit profile input editable */
+
+.intl-tel-input-contact .otp_style_editable {
+  background-color: #ffffff !important;
+  border-radius: 25px !important;
+  height: 40px;
+  width: 78%;
+  color: #1a1a1a;
+  font-size: 1.3rem;
+  border: none;
+  -webkit-border-radius: 25px !important;
+  -moz-border-radius: 25px !important;
+  -ms-border-radius: 25px !important;
+  -o-border-radius: 25px !important;
+  @media (max-width: 600px) {
+    font-size: 1.3rem;
+  }
+}
+
+.otp_style_editable::placeholder {
+  color: #d9d9d9;
+}
+
+.intl-tel-input-login .otp_style_editable {
+  background-color: #d9d9d9;
+  border-radius: 25px !important;
+  height: 4.4rem;
+  width: 90% !important;
+  color: #1a1a1a;
+  font-size: 1.5rem;
+  border: none;
+  -webkit-border-radius: 25px !important;
+  -moz-border-radius: 25px !important;
+  -ms-border-radius: 25px !important;
+  -o-border-radius: 25px !important;
+  @media (max-width: 600px) {
+    font-size: 1.3rem;
+  }
+}
+
+.intl-tel-input-login .flag-container .otp_style_editable::placeholder {
+  color: #d9d9d9;
+}
+
+@media (max-width: 900px) {
+  .intl-tel-input.allow-dropdown.separate-dial-code.iti-sdc-3 .selected-flag {
+    height: 40px;
+  }
+  .intl-tel-input-login .otp_style_editable {
+    width: 80% !important;
+  }
+
+  .intl-tel-input.selected-flag.separate-dial-code {
+    padding-left: 0px !important;
+  }
+  .intl-tel-input .selected-flag {
+    height: 4.4rem !important;
+  }
+  .intl-tel-input-contact .otp_style_editable {
+    width: 75% !important;
+    height: 4.4rem !important;
+  }
+}
+@media (max-width: 1024px) {
+  .intl-tel-input-login .otp_style_editable {
+    width: 78% !important;
+  }
+  .intl-tel-input-edit.allow-dropdown.separate-dial-code.iti-sdc-3 .selected-flag {
+    width: 78px;
+    height: 4.4rem;
+    background-color: #d9d9d9 !important;
+  }
+  .intl-tel-input-contact .otp_style_editable {
+    height: 4.4rem !important;
+  }
+}
+
+@media (max-width: 599px) {
+  .intl-tel-input-contact .otp_style_editable {
+    width: 70% !important;
+  }
+  /* .intl-tel-input .otp_style_home {
+    width: 72% !important;
+  } */
+  .intl-tel-input-login .otp_style_editable {
+    width: 72% !important;
+  }
+}
+
+@media (max-width: 400px) {
+  .intl-tel-input-contact .otp_style_editable {
+    width: 65% !important;
+  }
+  .intl-tel-input-login .otp_style_editable {
+    width: 65% !important;
+  }
+}
+
+.otp_style_editable:focus-visible {
+  outline: -webkit-focus-ring-color auto 0px !important;
+}
+
+.edit-input.allow-dropdown.separate-dial-code .selected-flag {
+  background-color: #ffffff !important;
+}
+
+.edit-input-disabled.allow-dropdown.separate-dial-code .selected-flag {
+  background-color: #e0e0e0 !important;
+}
+
+.edit-input-disabled .flag-container .arrow.down:after {
+  border-top-color: #d9d9d9;
+}
+
+/* End */
+
+/* Amex for styles */
+
+.intl-tel-input-contact .otp_style_contact_amex {
+  background-color: #f8f8f8 !important;
+  border-radius: 25px !important;
+  height: 40px;
+  width: 85%;
+  color: #1a1a1a;
+  font-size: 1.3rem;
+  border: none;
+  -webkit-border-radius: 25px !important;
+  -moz-border-radius: 25px !important;
+  -ms-border-radius: 25px !important;
+  -o-border-radius: 25px !important;
+}
+
+.intl-tel-input-contact .otp_style_contact_amex::placeholder {
+  color: #838383;
+  font-size: 11px;
+}
+
+.amex-input.allow-dropdown.separate-dial-code.iti-sdc-3 .selected-flag {
+  background-color: #f8f8f8 !important;
+
+  @media (max-width: 1024px) {
+    width: 72px;
+    font-size: 1.3rem;
+    height: 4rem;
+  }
+
+  @media (max-width: 400px) {
+    width: 67px;
+    font-size: 1.3rem;
+    height: 4rem;
+  }
+}
+
+/* Enterprise for styles */
+
+.intl-tel-input-contact .otp_style_contact_enterprise {
+  background-color: #f8f8f8 !important;
+  border-radius: 25px !important;
+  height: 44px;
+  width: 75%;
+  color: #1a1a1a;
+  font-size: 1.5rem;
+  border: none;
+  padding-left: 20px !important;
+  margin-left: 75px !important;
+  -webkit-border-radius: 25px !important;
+  -moz-border-radius: 25px !important;
+  -ms-border-radius: 25px !important;
+  -o-border-radius: 25px !important;
+
+  @media (max-width: 600px) {
+    margin-left: 100px !important;
+  }
+}
+
+.intl-tel-input-contact .otp_style_contact_cyient {
+  background-color: #f8f8f8 !important;
+  border-radius: 25px !important;
+  height: 44px;
+  color: #1a1a1a;
+  font-size: 1.5rem;
+  border: none;
+  padding-left: 20px !important;
+  margin-left: 75px !important;
+  -webkit-border-radius: 25px !important;
+  -moz-border-radius: 25px !important;
+  -ms-border-radius: 25px !important;
+  -o-border-radius: 25px !important;
+
+  @media (max-width: 600px) {
+    margin-left: 100px !important;
+  }
+}
+
+.intl-tel-input-contact .otp_style_contact_cyient::placeholder {
+  color: #838383;
+  font-size: 15px;
+}
+
+.enterprise-input .flag-container .selected-flag {
+  height: 44px !important;
+  font-size: 14px;
+  width: 30% !important;
+}
+
+.intl-tel-input-contact .otp_style_contact_enterprise::placeholder {
+  color: #838383;
+  font-size: 15px;
+}
+
+.enterprise-input.allow-dropdown.separate-dial-code.iti-sdc-3 .selected-flag {
+  background-color: #f8f8f8 !important;
+}
+
+/* End */

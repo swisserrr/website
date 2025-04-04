@@ -1,0 +1,1573 @@
+.otp_style {
+  width: 4.4rem !important;
+  height: 4.4rem;
+  margin: 20px 10px 20px 0;
+  border-radius: 5px;
+  border-width: 1.3px;
+  border-color: #000;
+  background-color: #f8f8f8;
+  font-style: normal;
+  font-weight: 500;
+  color: #000;
+  font-size: 2.2rem;
+  line-height: 27px;
+
+  @media (max-width: 599px) {
+    width: 4rem !important;
+    height: 4rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25px;
+    font-size: 1.3rem;
+    margin: 0px 7px 15px 0;
+  }
+}
+
+.remove_incemented_icon input[type='number']::-webkit-inner-spin-button,
+.remove_incemented_icon input[type='number']::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+.remove_incemented_icon input[type='number'] {
+  -moz-appearance: textfield;
+}
+
+.error_style {
+  color: #cc4746 !important;
+  border-color: #cc4746 !important;
+  background-color: #f8dee5 !important;
+}
+
+.error_style_form {
+  border-color: #cc4746 !important;
+}
+
+/* Global styles for otp component */
+
+.react-tel-input .form-control {
+  border-width: 0;
+}
+
+.react-tel-input .selected-flag {
+  background-color: transparent !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  padding-top: 0 !important;
+  padding-bottom: 8px;
+  border-radius: 3rem;
+  height: 4.4rem;
+  border-width: 0 0 1px 0 !important;
+  border-color: #1a1a1a;
+  border-style: solid;
+
+  @media (max-width: 599px) {
+    height: 40px;
+  }
+}
+
+.react-tel-input .form-control {
+  width: calc(100% - 10rem) !important;
+  padding-left: 20px;
+  height: 4.4rem;
+  margin-left: 10rem;
+
+  @media (max-width: 599px) {
+    height: 40px;
+  }
+}
+
+.react-tel-input .flag-dropdown {
+  top: -10px;
+  margin-left: 0;
+}
+
+/* Style for otp component on login */
+
+.otp_style_login {
+  background-color: #f8f8f8 !important;
+  border-width: 1px !important;
+  border-color: #fff !important;
+  border-style: solid;
+  border-radius: 25px !important;
+  height: 4.4rem;
+  color: #000;
+
+  @media (max-width: 599px) {
+    height: 40px;
+  }
+}
+
+/* Style for otp component on home */
+
+.otp_style_home {
+  background-color: #ffffff !important;
+  border-width: 0 0 1px 0 !important;
+  border-color: #1a1a1a;
+  border-style: solid;
+  border-radius: 0px !important;
+  height: 4.5rem;
+  width: 85% !important;
+  color: #2447ff;
+  font-size: 1.5rem;
+  -webkit-border-radius: 0px !important;
+  -moz-border-radius: 0px !important;
+  -ms-border-radius: 0px !important;
+  -o-border-radius: 0px !important;
+  padding-left: 0 !important;
+
+  @media (max-width: 599px) {
+    height: 41px;
+    font-size: 1.3rem;
+  }
+
+  @media (max-width: 900px) {
+    width: 75%;
+  }
+
+  @media (max-width: 1024px) {
+    width: 80%;
+  }
+}
+
+.custom_otp_style_home {
+  /* background-color: #ffffff !important; */
+  /* border-width: 0 0 0 0 !important; */
+  border-color: white;
+  border-style: solid;
+  border-radius: 1rem !important;
+  height: 4.5rem;
+  width: 85% !important;
+  color: #2447ff;
+  font-size: 1.5rem;
+  -webkit-border-radius: 1rem !important;
+  -moz-border-radius: 1rem !important;
+  -ms-border-radius: 1rem !important;
+  -o-border-radius: 1rem !important;
+  padding-left: 1rem !important;
+
+  @media (max-width: 599px) {
+    height: 41px;
+    font-size: 1.3rem;
+  }
+
+  @media (max-width: 900px) {
+    width: 75%;
+  }
+
+  @media (max-width: 1024px) {
+    width: 80%;
+  }
+}
+
+.intl-tel-input-contact .otp_style_contact {
+  background-color: #f4f4f4 !important;
+  border-radius: 25px !important;
+  height: 40px;
+  width: 78%;
+  color: #1a1a1a;
+  font-size: 1.3rem;
+  border-color: #f4f4f4;
+  border-style: solid;
+  border-width: 1px;
+  -webkit-border-radius: 25px !important;
+  -moz-border-radius: 25px !important;
+  -ms-border-radius: 25px !important;
+  -o-border-radius: 25px !important;
+}
+
+.otp_style_dropdown {
+  color: #1a1a1a;
+}
+
+.otp_style_dropdown_contacts {
+  color: #1a1a1a;
+}
+
+.otp_style_home::placeholder {
+  color: #d9d9d9;
+}
+
+.otp_style_contact::placeholder {
+  color: #d9d9d9;
+}
+
+/* Mui popover global style */
+.MuiPopover-paper {
+  margin-top: 20px;
+  border-radius: 20px !important;
+}
+
+.custom_modal {
+  position: absolute;
+  background-color: #ffffff;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  outline: none;
+  border-radius: 2.5rem;
+  width: 30%;
+  z-index: 99998;
+  overflow-y: auto;
+  -ms-overflow-style: none;
+  /* Internet Explorer 10+ */
+  scrollbar-width: none;
+  /* Firefox */
+  max-height: 95%;
+}
+
+.custom_modal::-webkit-scrollbar {
+  display: none;
+  /* Safari and Chrome */
+}
+
+@media (max-width: 800px) {
+  .custom_modal {
+    position: absolute;
+    background-color: #ffffff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    outline: none;
+    border-radius: 2.5rem;
+    width: 70%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .custom_modal {
+    position: absolute;
+    background-color: #ffffff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    outline: none;
+    border-radius: 2.5rem;
+    width: 80%;
+  }
+}
+
+@media (max-height: 800px) and (min-width: 800px) {
+  .custom_modal {
+    position: absolute;
+    background-color: #ffffff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    outline: none;
+    border-radius: 2.5rem;
+    width: 42%;
+  }
+}
+
+@media (max-width: 600px) {
+  .custom_modal {
+    position: absolute;
+    background-color: #ffffff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    outline: none;
+    border-radius: 2.5rem;
+    width: 90%;
+  }
+}
+
+.img_0 {
+  display: block !important;
+  animation: slideInFromLeft 2.5s ease;
+  -webkit-animation: slideInFromLeft 2.5s ease;
+}
+
+.img_1 {
+  display: block !important;
+  rotate: 10deg;
+  animation: slideInFromLeft 2.5s ease;
+  -webkit-animation: slideInFromLeft 2.5s ease;
+}
+
+.img_2 {
+  display: block !important;
+  rotate: 5deg;
+  animation: slideInFromLeft 2.5s ease;
+  -webkit-animation: slideInFromLeft 2.5s ease;
+}
+
+.img_r {
+  display: none;
+}
+
+@keyframes slideInFromLeft {
+  0% {
+    transform: perspective(30px) translateZ(60px);
+    -webkit-transform: perspective(30px) translateZ(60px);
+    -moz-transform: perspective(30px) translateZ(60px);
+    -ms-transform: perspective(30px) translateZ(60px);
+    -o-transform: perspective(30px) translateZ(60px);
+  }
+
+  100% {
+    transform: perspective(0px) translateZ(0px);
+    -webkit-transform: perspective(0px) translateZ(0px);
+    -moz-transform: perspective(0px) translateZ(0px);
+    -ms-transform: perspective(0px) translateZ(0px);
+    -o-transform: perspective(0px) translateZ(0px);
+  }
+}
+
+/* Truncate css */
+.truncate {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.truncate-1 {
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.truncate-3 {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+@property --num {
+  syntax: '<integer>';
+  initial-value: 0;
+  inherits: false;
+}
+
+.intl-tel-input {
+  width: 100%;
+  display: flex !important;
+  justify-content: flex-end;
+}
+
+.intl-tel-input-contact {
+  position: relative;
+  width: 100%;
+  display: flex !important;
+  justify-content: flex-end;
+  box-sizing: border-box;
+}
+
+.country-list .country {
+  padding: 5px 10px;
+}
+
+.intl-tel-input-contact .country-list .country.highlight {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.intl-tel-input-contact .flag-container .selected-flag .arrow {
+  font-size: 17px !important;
+}
+
+.intl-tel-input-contact.allow-dropdown.separate-dial-code .selected-dial-code {
+  display: table-cell !important;
+  vertical-align: middle !important;
+  padding-left: 28px !important;
+}
+
+.flag-container .selected-flag .iti-flag {
+  width: 0px !important;
+}
+
+.intl-tel-input-contact.flag-container .selected-flag .selected-dial-code {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 9px;
+  /* identical to box height, or 72% */
+  color: #1a1a1a;
+  display: flex;
+  align-items: center;
+}
+
+.intl-tel-input .flag-container .selected-flag .selected-dial-code {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.3rem;
+  line-height: 9px;
+  /* identical to box height, or 72% */
+  color: #2447ff;
+  display: flex;
+  align-items: center;
+  padding-left: 0px;
+}
+
+.intl-tel-input-contact .flag-container .selected-flag .selected-dial-code {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.3rem;
+  line-height: 9px;
+  /* identical to box height, or 72% */
+  color: #1a1a1a;
+  display: flex;
+  align-items: center;
+}
+
+.allow-dropdown {
+  display: flex !important;
+}
+
+.allow-dropdown.separate-dial-code .selected-flag {
+  display: flex !important;
+  z-index: 0;
+}
+
+.intl-tel-input-contact.allow-dropdown.separate-dial-code .selected-flag {
+  display: flex !important;
+  background-color: #f4f4f4 !important;
+}
+
+.intl-tel-input .flag-container .selected-flag {
+  background-color: #ffffff !important;
+  border-width: 0 0 0px 0 !important;
+  /* border-color: #1a1a1a !important; */
+  border-style: solid;
+  border-radius: 1rem !important;
+  height: 4.4rem;
+  padding-right: 40px;
+  padding-left: 8px;
+
+  -webkit-border-radius: .7rem !important;
+  -moz-border-radius: .7rem !important;
+  -ms-border-radius: .7rem !important;
+  -o-border-radius: .7rem !important;
+
+  /* color:black !important; */
+  @media (max-width: 599px) {
+    height: 40px !important;
+  }
+}
+
+.intl-tel-input {
+  margin-bottom: 1.563rem;
+}
+
+.intl-tel-input-contact .flag-container .selected-flag {
+  background-color: #f8f8f8 !important;
+  border-radius: 25px !important;
+  height: 40px;
+  padding-right: 30px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.intl-tel-input-contact.allow-dropdown.separate-dial-code.iti-sdc-3 input,
+.intl-tel-input.allow-dropdown-contact.separate-dial-code.iti-sdc-3 input[type='text'],
+.intl-tel-input-contact.allow-dropdown.separate-dial-code.iti-sdc-3 input[type='tel'] {
+  padding-left: 20px !important;
+}
+
+/* modal contact form style */
+
+.intl-tel-input-contact .country-list {
+  position: absolute;
+  z-index: 2;
+  list-style: none;
+  text-align: left;
+  padding: 0;
+  margin: 0 0 0 -1px;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+  background-color: white;
+  border: 1px solid #ccc;
+  white-space: nowrap;
+  max-height: 200px;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+}
+
+.intl-tel-input-contact .country-list .divider {
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+  border-bottom: 1px solid #ccc;
+}
+
+.intl-tel-input-contact.allow-dropdown .flag-container:hover {
+  cursor: pointer;
+}
+
+.intl-tel-input-contact .flag-container .selected-flag .arrow {
+  font-size: 17px !important;
+}
+
+.intl-tel-input .flag-container .selected-flag .arrow {
+  font-size: 15px !important;
+}
+
+.intl-tel-input-contact .flag-container .selected-flag .arrow {
+  font-size: 15px !important;
+}
+
+.intl-tel-input-contact {
+  position: relative;
+  display: inline-block;
+}
+
+.intl-tel-input-contact * {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+.intl-tel-input-contact .hide {
+  display: none;
+}
+
+.intl-tel-input-contact .v-hide {
+  visibility: hidden;
+}
+
+.intl-tel-input-contact input,
+.intl-tel-input-contact input[type='text'],
+.intl-tel-input-contact input[type='tel'] {
+  position: relative;
+  z-index: 0;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  padding-right: 36px;
+  margin-right: 0;
+}
+
+.intl-tel-input-contact .flag-container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  padding: 1px;
+}
+
+.intl-tel-input-contact .flag-container .arrow {
+  font-size: 6px;
+  margin-left: 2px;
+}
+
+.intl-tel-input .flag-container .arrow.down {
+  position: relative;
+  display: block;
+  height: 5px;
+  margin-top: 4px;
+}
+
+.intl-tel-input .flag-container .arrow.down:before,
+.intl-tel-input .flag-container .arrow.down:after {
+  position: absolute;
+  display: block;
+  content: '';
+  border: 5px solid transparent;
+  /* margin-top: 9px; */
+  margin-left: -5px;
+}
+
+.intl-tel-input .flag-container .arrow.down:before {
+  top: 0;
+  border-top-color: #2447ff;
+}
+
+.intl-tel-input .flag-container .arrow.down:after {
+  top: -2px;
+  border-top-color: #ffffff;
+}
+
+.intl-tel-input .flag-container .arrow.up {
+  position: relative;
+  display: block;
+  height: 5px;
+}
+
+.intl-tel-input .flag-container .arrow.up:after,
+.intl-tel-input .flag-container .arrow.up:before {
+  position: absolute;
+  display: block;
+  content: '';
+  border: 5px solid transparent;
+  /* margin-top: 9px; */
+  margin-left: -5px;
+}
+
+.intl-tel-input .flag-container .arrow.up:after {
+  bottom: 0;
+  border-bottom-color: #ffffff;
+}
+
+.intl-tel-input .flag-container .arrow.up:before {
+  bottom: 2px;
+  border-bottom-color: #2447ff;
+}
+
+.intl-tel-input-contact .flag-container .arrow.down {
+  position: relative;
+  display: block;
+  height: 5px;
+  /*height should be double border*/
+}
+
+.intl-tel-input-contact .flag-container .arrow.down:before,
+.intl-tel-input-contact .flag-container .arrow.down:after {
+  position: absolute;
+  display: block;
+  content: '';
+  border: 5px solid transparent;
+  /*adjust size*/
+}
+
+/*Change four 'top' values below to rotate (top/right/bottom/left)*/
+.intl-tel-input-contact .flag-container .arrow.down:before {
+  top: 0;
+  border-top-color: #000000;
+  /*Chevron Color*/
+}
+
+.intl-tel-input-contact .flag-container .arrow.down:after {
+  top: -2px;
+  /*adjust thickness*/
+  border-top-color: #ffffff;
+  /*Match background colour*/
+}
+
+.intl-tel-input-contact .flag-container .arrow.up {
+  position: relative;
+  display: block;
+  height: 5px;
+  /*height should be double border*/
+}
+
+.intl-tel-input-contact .flag-container .arrow.up:after,
+.intl-tel-input-contact .flag-container .arrow.up:before {
+  position: absolute;
+  display: block;
+  content: '';
+  border: 5px solid transparent;
+  /*adjust size*/
+}
+
+/*Change four 'top' values below to rotate (top/right/bottom/left)*/
+.intl-tel-input-contact .flag-container .arrow.up:after {
+  bottom: 0;
+  border-bottom-color: #ffffff;
+  /*Chevron Color*/
+}
+
+.intl-tel-input-contact .flag-container .arrow.up:before {
+  bottom: 2px;
+  /*adjust thickness*/
+  border-bottom-color: #000000;
+  /*Match background colour*/
+}
+
+.intl-tel-input .flag-container .arrow.up:after {
+  content: '' !important;
+}
+
+.intl-tel-input .flag-container .arrow.down:after {
+  top: -2px;
+  /*adjust thickness*/
+  border-top-color: #fff;
+  /*Match background colour*/
+}
+
+.intl-tel-input .flag-container .arrow.up {
+  position: relative;
+  display: block;
+  height: 5px;
+  /*height should be double border*/
+}
+
+.intl-tel-input .flag-container .arrow.up:after,
+.intl-tel-input .flag-container .arrow.up:before {
+  position: absolute;
+  display: block;
+  content: '';
+  border: 5px solid transparent;
+  /*adjust size*/
+}
+
+/*Change four 'top' values below to rotate (top/right/bottom/left)*/
+.intl-tel-input .flag-container .arrow.up:after {
+  bottom: 0;
+  border-bottom-color: #fff;
+  /*Chevron Color*/
+}
+
+.intl-tel-input .flag-container .arrow.up:before {
+  bottom: 2px;
+  /*adjust thickness*/
+  border-bottom-color: #2447ff;
+  /*Match background colour*/
+}
+
+.intl-tel-input-contact .flag-container .arrow.down {
+  position: relative;
+  display: block;
+  height: 5px;
+  /*height should be double border*/
+}
+
+.intl-tel-input-contact .flag-container .arrow.down:before,
+.intl-tel-input-contact .flag-container .arrow.down:after {
+  position: absolute;
+  display: block;
+  content: '';
+  border: 5px solid transparent;
+  /*adjust size*/
+}
+
+/*Change four 'top' values below to rotate (top/right/bottom/left)*/
+.intl-tel-input-contact .flag-container .arrow.down:before {
+  top: 0;
+  border-top-color: #000000;
+  /*Chevron Color*/
+}
+
+.intl-tel-input-contact .flag-container .arrow.down:after {
+  top: -2px;
+  /*adjust thickness*/
+  border-top-color: #ffffff;
+  /*Match background colour*/
+}
+
+.intl-tel-input-contact .flag-container .arrow.up {
+  position: relative;
+  display: block;
+  height: 5px;
+  /*height should be double border*/
+}
+
+.intl-tel-input-contact .flag-container .arrow.up:after,
+.intl-tel-input-contact .flag-container .arrow.up:before {
+  position: absolute;
+  display: block;
+  content: '';
+  border: 5px solid transparent;
+  /*adjust size*/
+}
+
+/*Change four 'top' values below to rotate (top/right/bottom/left)*/
+.intl-tel-input-contact .flag-container .arrow.up:after {
+  bottom: 0;
+  border-bottom-color: #ffffff;
+  /*Chevron Color*/
+}
+
+.intl-tel-input-contact .flag-container .arrow.up:before {
+  bottom: 2px;
+  /*adjust thickness*/
+  border-bottom-color: #000000;
+  /*Match background colour*/
+}
+
+.intl-tel-input .flag-container .arrow.up:after {
+  content: '' !important;
+}
+
+.intl-tel-input .flag-container .arrow.down:after {
+  content: '' !important;
+}
+
+.intl-tel-input-contact .selected-flag {
+  z-index: 1;
+  position: relative;
+  width: 36px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.intl-tel-input-contact .country-list {
+  position: absolute;
+  z-index: 2;
+  list-style: none;
+  text-align: left;
+  padding: 0;
+  margin: 0 0 0 -1px;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+  background-color: white;
+  border: 1px solid #ccc;
+  white-space: nowrap;
+  max-height: 200px;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+}
+
+.intl-tel-input-contact .country-list .divider {
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+  border-bottom: 1px solid #ccc;
+}
+
+.intl-tel-input-contact .country-list.dropup {
+  bottom: 100%;
+  margin-bottom: -1px;
+}
+
+.intl-tel-input-contact .country-list .flag-box {
+  display: inline-block;
+  width: 20px;
+}
+
+@media (max-width: 500px) {
+  .intl-tel-input-contact .country-list {
+    white-space: normal;
+  }
+}
+
+.intl-tel-input-contact .country-list .country {
+  padding: 5px 10px;
+}
+
+.intl-tel-input-contact .country-list .country .dial-code {
+  color: #999;
+}
+
+.intl-tel-input-contact .country-list .country.highlight {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.intl-tel-input-contact .country-list .flag-box,
+.intl-tel-input-contact .country-list .country-name,
+.intl-tel-input-contact .country-list .dial-code {
+  vertical-align: middle;
+}
+
+.intl-tel-input .country-list .flag-box,
+.intl-tel-input .country-list .country-name {
+  margin-right: 6px;
+}
+
+.intl-tel-input-contact.allow-dropdown input,
+.intl-tel-input-contact.allow-dropdown input[type='text'],
+.intl-tel-input-contact.allow-dropdown input[type='tel'] {
+  padding-right: 6px;
+  padding-left: 52px;
+  margin-left: 0;
+}
+
+.intl-tel-input-contact.allow-dropdown .flag-container {
+  right: auto;
+  left: 0;
+  width: 100%;
+}
+
+.intl-tel-input-contact.allow-dropdown .selected-flag {
+  width: 46px;
+}
+
+.intl-tel-input-contact.allow-dropdown .flag-container:hover {
+  cursor: pointer;
+}
+
+.intl-tel-input-contact.allow-dropdown .flag-container:hover .selected-flag {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.intl-tel-input-contact.allow-dropdown input[disabled]+.flag-container:hover,
+.intl-tel-input-contact.allow-dropdown input[readonly]+.flag-container:hover {
+  cursor: default;
+}
+
+.intl-tel-input-contact.allow-dropdown input[disabled]+.flag-container:hover .selected-flag,
+.intl-tel-input-contact.allow-dropdown input[readonly]+.flag-container:hover .selected-flag {
+  background-color: transparent;
+}
+
+.intl-tel-input-contact.allow-dropdown.separate-dial-code .selected-flag {
+  background-color: rgba(0, 0, 0, 0.05);
+  display: table;
+}
+
+.intl-tel-input-contact.allow-dropdown.separate-dial-code .selected-dial-code {
+  display: table-cell;
+  vertical-align: middle;
+  padding-left: 28px;
+}
+
+.intl-tel-input-contact.allow-dropdown.separate-dial-code.iti-sdc-2 input,
+.intl-tel-input-contact.allow-dropdown.separate-dial-code.iti-sdc-2 input[type='text'],
+.intl-tel-input-contact.allow-dropdown.separate-dial-code.iti-sdc-2 input[type='tel'] {
+  padding-left: 76px;
+}
+
+.intl-tel-input-contact.allow-dropdown.separate-dial-code.iti-sdc-2 .selected-flag {
+  width: 70px;
+}
+
+.intl-tel-input-contact.allow-dropdown.separate-dial-code.iti-sdc-3 input,
+.intl-tel-input-contact.allow-dropdown.separate-dial-code.iti-sdc-3 input[type='text'],
+.intl-tel-input-contact.allow-dropdown.separate-dial-code.iti-sdc-3 input[type='tel'] {
+  padding-left: 84px;
+}
+
+.intl-tel-input-contact.allow-dropdown.separate-dial-code.iti-sdc-3 .selected-flag {
+  width: 78px;
+}
+
+.intl-tel-input-contact .otp_style_contact_amex:disabled,
+.intl-tel-input-contact .otp_style_contact_enterprise:disabled,
+.intl-tel-input-contact .otp_style_contact_cyient:disabled {
+  background-color: #e0e0e0 !important;
+  color: #616161 !important;
+  cursor: not-allowed !important;
+}
+
+.intl-tel-input-contact .otp_style_contact_amex::placeholder:disabled,
+.intl-tel-input-contact .otp_style_contact_enterprise::placeholder:disabled,
+.intl-tel-input-contact .otp_style_contact_cyient::placeholder:disabled {
+  color: #616161 !important;
+  background-color: #e0e0e0 !important;
+}
+
+.intl-tel-input-contact.allow-dropdown.separate-dial-code.iti-sdc-4 input,
+.intl-tel-input-contact.allow-dropdown.separate-dial-code.iti-sdc-4 input[type='text'],
+.intl-tel-input-contact.allow-dropdown.separate-dial-code.iti-sdc-4 input[type='tel'] {
+  padding-left: 92px;
+}
+
+.intl-tel-input-contact.allow-dropdown.separate-dial-code.iti-sdc-4 .selected-flag {
+  width: 86px;
+}
+
+.intl-tel-input-contact.allow-dropdown.separate-dial-code.iti-sdc-5 input,
+.intl-tel-input-contact.allow-dropdown.separate-dial-code.iti-sdc-5 input[type='text'],
+.intl-tel-input-contact.allow-dropdown.separate-dial-code.iti-sdc-5 input[type='tel'] {
+  padding-left: 100px;
+}
+
+.intl-tel-input-contact.allow-dropdown.separate-dial-code.iti-sdc-5 .selected-flag {
+  width: 94px;
+}
+
+.intl-tel-input-contact.iti-container {
+  position: absolute;
+  top: -1000px;
+  left: -1000px;
+  z-index: 99999;
+  padding: 1px;
+}
+
+.intl-tel-input-contact.iti-container:hover {
+  cursor: pointer;
+}
+
+.intl-tel-input.iti-container {
+  /* position: relative; */
+  z-index: 9999;
+  top: -1000px;
+  left: -1000px;
+  padding: 1px;
+}
+
+.intl-tel-input.iti-container:hover {
+  cursor: pointer;
+}
+
+.iti-mobile .intl-tel-input-contact.iti-container {
+  top: 30px;
+  bottom: 30px;
+  left: 30px;
+  right: 30px;
+  position: fixed;
+}
+
+.iti-mobile .intl-tel-input-contact .country-list {
+  max-height: 100%;
+  width: 100%;
+  -webkit-overflow-scrolling: touch;
+}
+
+.iti-mobile .intl-tel-input-contact .country-list .country {
+  padding: 10px 10px;
+  line-height: 1.5em;
+}
+
+/* login section  */
+
+.intl-tel-input-login .flag-container .selected-flag .selected-dial-code {
+  font-family: 'Inter' !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  font-size: 15px !important;
+  line-height: 25px !important;
+
+  display: flex !important;
+  align-items: center !important;
+  text-align: center !important;
+
+  color: #12181f !important;
+}
+
+.intl-tel-input-login .flag-container .selected-flag {
+  height: 4.4rem;
+}
+
+.intl-tel-input-login .otp_style_contact {
+  background-color: #f4f4f4 !important;
+  border-radius: 25px !important;
+  height: 4.4rem;
+  width: 85% !important;
+  color: #1a1a1a;
+  font-size: 1.5rem;
+  border: none;
+  -webkit-border-radius: 25px !important;
+  -moz-border-radius: 25px !important;
+  -ms-border-radius: 25px !important;
+  -o-border-radius: 25px !important;
+}
+
+.intl-tel-input-login .flag-container .otp_style_contact::placeholder {
+  color: #d9d9d9;
+}
+
+.intl-tel-input.allow-dropdown.separate-dial-code.iti-sdc-3 .selected-flag {
+  width: 12% !important;
+}
+
+@media (max-width: 600px) {
+  .intl-tel-input.allow-dropdown.separate-dial-code.iti-sdc-3 .selected-flag {
+    width: 18% !important;
+  }
+
+  .intl-tel-input .otp_style_home {
+    width: 78% !important;
+  }
+}
+
+@media (max-width: 900px) {
+  .intl-tel-input.allow-dropdown.separate-dial-code.iti-sdc-3 .selected-flag {
+    height: 40px;
+  }
+
+  .intl-tel-input-login .otp_style_contact {
+    width: 80% !important;
+  }
+
+  .intl-tel-input.selected-flag.separate-dial-code {
+    padding-left: 0px !important;
+  }
+
+  .intl-tel-input .selected-flag {
+    height: 4.4rem !important;
+  }
+
+  .intl-tel-input-contact .otp_style_contact {
+    width: 75% !important;
+    height: 4.4rem !important;
+  }
+}
+
+@media (max-height: 800px) and (min-width: 800px) {
+  .intl-tel-input-contact.allow-dropdown.separate-dial-code.iti-sdc-3 .selected-flag {
+    width: 120px;
+    height: 4rem;
+    background-color: #f4f4f4;
+  }
+
+  .enterprise-input.allow-dropdown.separate-dial-code.iti-sdc-3 .selected-flag {
+    width: 25%;
+    height: 4rem;
+    background-color: #f4f4f4;
+  }
+}
+
+@media (max-width: 1024px) {
+  .intl-tel-input-login .otp_style_contact {
+    width: 78% !important;
+  }
+
+  .intl-tel-input-contact.allow-dropdown.separate-dial-code.iti-sdc-3 .selected-flag {
+    width: 78px;
+    height: 4.4rem;
+    background-color: #f4f4f4;
+  }
+
+  .intl-tel-input-contact .otp_style_contact {
+    height: 4.4rem !important;
+  }
+
+  /* .intl-tel-input .otp_style_home {
+    width: 75% !important;
+  } */
+}
+
+@media (max-width: 599px) {
+  .intl-tel-input-contact .otp_style_contact {
+    width: 70% !important;
+  }
+
+  /* .intl-tel-input .otp_style_home {
+    width: 72% !important;
+  } */
+  .intl-tel-input-login .otp_style_contact {
+    width: 72% !important;
+  }
+}
+
+@media (max-width: 400px) {
+  .intl-tel-input-contact .otp_style_contact {
+    width: 65% !important;
+  }
+
+  .unique-instance {
+    position: relative;
+    width: 100%;
+    display: flex !important;
+    justify-content: flex-end;
+    box-sizing: border-box;
+    border: #000;
+    border-width: 1px;
+  }
+
+
+  /* .intl-tel-input .otp_style_home {
+    width: 65% !important;
+  } */
+  .intl-tel-input-login .otp_style_contact {
+    width: 65% !important;
+  }
+}
+
+.home-page-plan:hover {
+  z-index: 1;
+  transform: scale(1.03);
+  -webkit-transform: scale(1.03);
+  -moz-transform: scale(1.03);
+  -ms-transform: scale(1.03);
+  -o-transform: scale(1.03);
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+}
+
+.home-page-plan {
+  transition: all 0.1s ease-in-out;
+  -webkit-transition: all 0.1s ease-in-out;
+  -moz-transition: all 0.1s ease-in-out;
+  -ms-transition: all 0.1s ease-in-out;
+  -o-transition: all 0.1s ease-in-out;
+}
+
+.css-152lh7q:focus-visible {
+  outline: -webkit-focus-ring-color auto 0px !important;
+}
+
+.otp_style_home:focus-visible {
+  outline: -webkit-focus-ring-color auto 0px !important;
+}
+
+.otp_style_contact:focus-visible {
+  outline: -webkit-focus-ring-color auto 0px !important;
+}
+
+.contact-form .MuiSelect-select {
+  padding-left: 0;
+}
+
+.intl-tel-input.allow-dropdown.separate-dial-code .selected-dial-code {
+  display: table-cell !important;
+  /* vertical-align: middle !important; */
+  padding-left: 0px !important;
+}
+
+.intl-tel-input.separate-dial-code .selected-dial-code {
+  display: table-cell !important;
+  padding: 10px 10px 10px 0px !important;
+}
+
+.indiana-scroll-container {
+  overflow: auto;
+  cursor: grab;
+  scroll-behavior: smooth;
+}
+
+.intl-tel-input.separate-dial-code .selected-dial-code {
+  display: flex !important;
+  margin: 10px 10px 10px 0px !important;
+  padding: 0px 0px 0px 0px !important;
+}
+
+.selected-dial-code {
+  pointer-events: none;
+}
+
+.arrow {
+  pointer-events: none;
+}
+
+.iti-mobile .intl-tel-input.iti-container {
+  top: 30px !important;
+  bottom: 30px !important;
+  left: 30px !important;
+  right: 10px !important;
+  margin: auto 0 !important;
+  position: fixed;
+  width: 70% !important;
+  height: 60% !important;
+  z-index: 9999;
+}
+
+.no-scroll {
+  overflow: hidden;
+}
+
+.image_gradient {
+  z-index: 1;
+  position: absolute;
+  bottom: -1rem;
+  height: 60%;
+  width: 100%;
+  background: linear-gradient(to top, rgba(248, 248, 248, 0.5), rgba(248, 248, 248, 0));
+}
+
+.react-date-picker {
+  width: 100%;
+  height: 4.4rem;
+  font-size: 1.3rem;
+  background-color: #f8f8f8;
+  border-radius: 4rem;
+  -webkit-border-radius: 4rem;
+  -moz-border-radius: 4rem;
+  -ms-border-radius: 4rem;
+  -o-border-radius: 4rem;
+}
+
+.react-date-picker .react-date-picker__wrapper {
+  padding: 0rem 2rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+  border-style: none;
+}
+
+/* Google auto complete css */
+
+.custom-suggestions {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 10px;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.custom-suggestion {
+  padding: 5px;
+  cursor: pointer;
+}
+
+.custom-suggestion:hover,
+.custom-suggestion.active {
+  background-color: #f2f2f2;
+}
+
+.userDetailParagraph {
+  line-height: 2rem;
+  margin-bottom: 30px;
+}
+
+.css-sh22l5-MuiButtonBase-root-MuiAccordionSummary-root.Mui-expanded {
+  min-height: 48px;
+}
+
+@media screen and (max-width: 768px) {
+  [data-aos] {
+    pointer-events: auto !important;
+    opacity: 1 !important;
+    transform: none !important;
+  }
+}
+
+/* @media screen and (max-width: 767px) {
+  [data-aos] {
+    pointer-events: auto !important;
+  }
+
+  html:not(.no-js) [data-aos^='zoom'][data-aos^='zoom'] {
+    opacity: 1 !important;
+  }
+
+  html:not(.no-js) [data-aos='zoom-in'] {
+    transform: none !important;
+  }
+} */
+
+.react-tabs__tab:focus {
+  outline: none;
+}
+
+.react-tabs__tab--selected {
+  background: #fff;
+  border: none !important;
+}
+
+.react-tabs__tab {
+  display: inline-block;
+  border: 1px solid transparent;
+  border-bottom: none;
+  bottom: -1px;
+  position: relative;
+  list-style: none;
+  padding: 1.2rem 3.4rem;
+  cursor: pointer;
+  background-color: #e1dede;
+  height: 4.8rem;
+}
+
+.tab-list {
+  position: relative;
+  justify-content: space-between;
+  margin: 0 auto;
+  display: flex;
+  background-color: #e1dede !important;
+  padding: 0.3rem 0.422rem 0.5rem 0.422rem;
+  width: 45rem;
+  border-radius: 3rem;
+  -webkit-border-radius: 3rem;
+  -moz-border-radius: 3rem;
+  -ms-border-radius: 3rem;
+  -o-border-radius: 3rem;
+}
+
+.react-tabs__tab--selected::after {
+  content: '';
+  /* Empty content to create a pseudo-element */
+  display: block;
+  border: none;
+  position: absolute;
+  bottom: 0;
+  /* Adjust as needed */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  /* Set the width to 0 to hide the bar */
+  height: 2px;
+  /* Adjust as needed */
+  background-color: transparent;
+  /* Set the background color to match the tab background */
+}
+
+.react-tabs__tab-panel {
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+  -webkit-transition: opacity 0.5s ease-in-out;
+  -moz-transition: opacity 0.5s ease-in-out;
+  -ms-transition: opacity 0.5s ease-in-out;
+  -o-transition: opacity 0.5s ease-in-out;
+}
+
+.react-tabs__tab-panel.react-tabs__tab-panel--selected {
+  opacity: 1;
+}
+
+.react-tabs__tab-panel.react-tabs__tab-panel--hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+@media screen and (max-width: 600px) {
+  .react-tabs__tab:focus {
+    outline: none;
+  }
+
+  .react-tabs__tab--selected {
+    background: #fff;
+    border: none !important;
+  }
+
+  .react-tabs__tab {
+    display: inline-block;
+    border: 1px solid transparent;
+    border-bottom: none;
+    bottom: -1px;
+    position: relative;
+    list-style: none;
+    cursor: pointer;
+    background-color: #e1dede;
+    height: 3.8rem;
+  }
+
+  .tab-list {
+    position: relative;
+    justify-content: space-between;
+    margin: 0 auto;
+    display: flex;
+    background-color: #e1dede !important;
+    padding: 0.3rem 0.422rem 0.5rem 0.422rem;
+    width: 31rem;
+    border-radius: 3rem;
+    -webkit-border-radius: 3rem;
+    -moz-border-radius: 3rem;
+    -ms-border-radius: 3rem;
+    -o-border-radius: 3rem;
+  }
+
+  .react-tabs__tab--selected::after {
+    content: '';
+    /* Empty content to create a pseudo-element */
+    display: block;
+    border-color: transparent;
+    position: absolute;
+    border: none;
+    bottom: 0;
+    /* Adjust as needed */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    /* Set the width to 0 to hide the bar */
+    height: 2px;
+    /* Adjust as needed */
+    background-color: transparent;
+    /* Set the background color to match the tab background */
+  }
+}
+
+.top-spacer {
+  height: 50vh;
+}
+
+.bottom-spacer {
+  height: 110vh;
+}
+
+.sticky {
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+}
+
+.header_link {
+  font-size: 1.6rem;
+  font-weight: 600;
+  padding: 10px;
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+  border-bottom: 3px solid transparent;
+  outline: none;
+  display: flex;
+  text-align: left;
+}
+
+.selected {
+  color: #cc4746;
+}
+
+.section {
+  /* height: 40vh; */
+}
+
+#Leadership {
+  /* background-color: #a388e8; */
+}
+
+#Providers {
+  /* background-color: #f4769e; */
+}
+
+#Operations {
+  /* background-color: #8face0; */
+}
+
+* {
+  scroll-margin-top: 80px;
+}
+
+.custom-form-blurred-box {
+  position: relative;
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(10px);
+  color: black;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 900px;
+  /* height: auto; */
+  overflow-y: auto;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  display: flex;
+  @media (max-width: 600px) {
+    padding: 0rem !important;
+    background-color: #DEDEDE;
+  }
+}
+.custom-form-blurred-box-franchise-phone {
+ position: relative;
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(10px);
+  color: black;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  /* box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); */
+  width: 100%;
+  max-width: 900px;
+  /* height: auto; */
+  overflow-y: auto;
+  margin-left: 2.2rem ;
+  margin-right: 2.2rem;
+  text-align: center;
+  display: flex;
+
+  @media (max-width: 600px) {
+    padding: 0rem !important;
+    /* background-color: #DEDEDE; */
+  }
+}
+
+@media (max-width: 1024px) {
+  .custom-form-blurred-box {
+    width: 90%;
+    padding: 1rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .custom-form-blurred-box {
+    width: 95%;
+    padding: 0.8rem;
+    font-size: 0.9rem;
+    /* margin-top: 2rem; */
+    background-color: #F8F8F8;
+  }
+}
+
+.blur-background-white {
+  position: relative;
+  background: white;
+  backdrop-filter: blur(10px);
+  color: black;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  max-width: 900px;
+  display: flex;
+}
+
+.margin-top-bottom {
+  margin: 1rem 0 1rem 0;
+}

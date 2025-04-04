@@ -1,0 +1,10 @@
+/*
+ *
+ * Test constants
+ *
+ */
+
+export const DEFAULT_ACTION = 'app/Home/DEFAULT_ACTION';
+
+export const FETCHING_HOME_JUNIPER_DATA = 'app/Home/FETCHING_HOME_JUNIPER_DATA';
+export const FETCHING_HOME_JUNIPER_DATA_SUCCESS = 'app/Home/FETCHING_HOME_JUNIPER_DATA_SUCCESS';

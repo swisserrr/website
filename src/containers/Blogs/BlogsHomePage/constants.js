@@ -1,0 +1,21 @@
+/*
+ *
+ * Blogs constants
+ *
+ */
+
+export const DEFAULT_ACTION = 'app/Blogs/DEFAULT_ACTION';
+
+export const GET_BLOGS_DATA = 'app/Blogs/GET_BLOGS_DATA';
+export const GET_BLOGS_DATA_SUCCESS = 'app/Blogs/GET_BLOGS_DATA_SUCCESS';
+export const GET_BLOGS_DATA_FAILURE = 'app/Blogs/GET_BLOGS_DATA_FAILURE';
+
+export const GET_BLOGS_CATEGORIES = 'app/Blogs/GET_BLOGS_CATEGORIES';
+export const GET_BLOGS_CATEGORIES_SUCCESS = 'app/Blogs/GET_BLOGS_CATEGORIES_SUCCESS';
+export const GET_BLOGS_CATEGORIES_FAILURE = 'app/Blogs/GET_BLOGS_CATEGORIES_FAILURE';
+
+export const ADD_BLOGS_CATEGORIES_DATA = 'ADD_BLOGS_CATEGORIES_DATA';
+
+export const GET_DETAIL_DATA = 'app/Blogs/GET_DETAIL_DATA';
+export const GET_DETAIL_DATA_SUCCESS = 'app/Blogs/GET_DETAIL_DATA_SUCCESS';
+export const GET_DETAIL_DATA_FAILURE = 'app/Blogs/GET_DETAIL_DATA_FAILURE';

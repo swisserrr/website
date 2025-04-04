@@ -1,0 +1,8 @@
+{
+  "home": {
+    "title": "Hello! this is home container."
+  },
+  "about": {
+    "title": "Hello! this is about container."
+  }
+}
